@@ -5,13 +5,6 @@ from setuptools import find_packages, setup
 setup(
 
     name="soloprocess",
-
-    version="0.0.1",
-
-    packages=find_packages(),
-
-    include_package_data=True,
-
-    package_dir={"soloprocess": "soloprocess"},
-
+    version="0.0.4",
+    py_modules=["soloprocess"],
 )
