@@ -30,3 +30,9 @@ Here's how to use it::
     Traceback (most recent call last):
     ...
     ProcessAlreadyRunning: Sorry, found a pidfile!  Process ... is still running.
+
+TODO
+====
+
+*   Write a few tests and hook this up to travis CI
+*   Explore whether to add some atexit hooks to clean up pidfiles.
