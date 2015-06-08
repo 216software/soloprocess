@@ -34,5 +34,13 @@ Here's how to use it::
 TODO
 ====
 
-*   Write a few tests and hook this up to travis CI
+*   Write a few tests and hook this up to travis CI.
+
 *   Explore whether to add some atexit hooks to clean up pidfiles.
+
+*   Fill out the setup.py with boring crap like my email, a license, a
+    link to the github repository, etc.
+
+*   Document the theoretical scenarios where this won't work.  Maybe in
+    addition to storing the PID, also use uptime to figure out when the
+    box last rebooted.
